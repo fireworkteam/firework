@@ -3,20 +3,11 @@
 namespace Firework\Models;
 
 use Firework\Core\Model;
+use \PDO;
 
 class indexModel extends Model
 {
-    public function get_data()
-    {
-        return [
-            [
-                'age' => 25,
-                'name'=> 'john'
-            ],
-            [
-                'age' => 20,
-                'name'=> 'john'
-            ]
-        ];
+    public function validate() {
+
     }
 }
