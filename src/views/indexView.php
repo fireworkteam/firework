@@ -6,7 +6,7 @@
 
 foreach($data as $row)
 {
-    print_r("<br>Name: " . $row['name'] . "<br>Age: " . $row['age'] . "<br>");
+    print_r("<br>Name: " . $row['name'] . "<br>Age: " . $row['age'] . "<br>Address: " . $row['address'] . "<br>");
 }
 
 ?>

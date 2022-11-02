@@ -14,7 +14,8 @@ class indexController extends Controller
 
     public function index()
     {
-        $data = $this->model->get_data();
+        $data = $this->model->get("*", "customers", ["age" => 25, "name" => "alex"]);
+        print_r($this->model->set('customers', ['age' => 20, 'name' => 'john']));
         $this->view->generate('indexView.php', 'templateView.php', $data);
     }
 }

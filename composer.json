@@ -16,7 +16,9 @@
         }
     ],
     "require": {
-        "fireworkteam/router": "*"
+        "ext-pdo": "*",
+        "fireworkteam/router": "*",
+        "fireworkteam/env": "^1.0"
     },
     "minimum-stability": "stable"
 }
