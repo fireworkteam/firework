@@ -1,0 +1,22 @@
+{
+    "name": "fireworkteam/firework",
+    "description": "Firework - Easiest PHP MVC Framework",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Firework\\Core\\": "core",
+            "Firework\\Models\\": "src/models"
+        }
+    },
+    "authors": [
+        {
+            "name": "fireworkteam",
+            "email": "svintsoff.ya@yandex.ru"
+        }
+    ],
+    "require": {
+        "fireworkteam/router": "*"
+    },
+    "minimum-stability": "stable"
+}
